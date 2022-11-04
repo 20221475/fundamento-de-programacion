@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1667435604 source:c:\users\ruddy\calcula_de_raiz\untitled2.c
+	<stdio.h>
+
+1584205420 source:c:\users\ruddy\desktop\carpeta 2\2.4\main.c
+	<stdio.h>
+	<stdlib.h>
+
