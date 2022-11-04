@@ -1,18 +1,35 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdio.h>
 
-int main()
- {
- int notaf;
+/* incremento de salario.
+el programa al recibir como dato el nivel de un profesor, incrementa su
+salario en funcion de la tabla 2.3.
 
- printf(" escriba la nota del estudiante");
- scanf("%i",&notaf);
-  if(notaf>= 70){
-     printf("pasaste con con a 70");
-     printf ("la nota es %i" ,notaf);
+NIV: variable de tipo entero.
+SAL: variable de tipo real. */
+
+void main(void)
+{
+    float SAL;
+    int NIV;
+    printf("Ingrese el nivel academico del profesor: ");
+    scanf("%d", &NIV);
+
+    printf("Ingrese el salario: ");
+    scanf("%f", &SAL);
+    switch(NIV);
+    printf("Ingrese el salario: ");
+    scanf("%f", &SAL);
+    switch(NIV);
+   {
+
+        case 1: SAL = SAL * 1.0035; break;
+        case 2: SAL = SAL * 1.0041; break;
+        case 3: SAL = SAL * 1.0048; break;
+        case 4: SAL = SAL * 1.0053; break;
    }
-   else{
-     printf("tu nota es menor a 70 y te quemaste ");
-   }
- getchar();
+
+ printf("/n/nNivel: %d /tNuevo salario: %8,2f" ,NIV, SAL);
+
  return 0;
- }
+}
